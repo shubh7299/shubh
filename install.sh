@@ -1,0 +1,1 @@
+sudo apt update && sudo apt install -y python3-pip && pip install telebot flask aiogram pyTelegramBotAPI python-telegram-bot pytz imagehash pillow && chmod +x * && nohup python3 shubh.py > output.log 2>&1 &
